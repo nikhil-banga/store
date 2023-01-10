@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  /* position: fixed; */
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+body {
+  margin: 0;
+  width: 100vw; 
+  /* margin-bottom: 65px;  */
+
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.position-sticky {
+  position: fixed !important;
+  /* top: ;  */
+  left: 0;
+  /* z-index: 1030; */
+  margin: 0;
+  width: 100% !important;
+   
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.rotate{
+  transition: all ease-in-out;
+}
+.rotate:hover{
+  transform: rotate(360deg);
+}
