@@ -12,13 +12,14 @@ import {
 } from "react-icons/ai";
 import { useRef,useEffect } from "react";
 import { useRouter } from "next/router";
-const Navbar = () => {
+const Navbar = ({cart,addtoCart,removeFromCart,clearCart,subTotal}) => {
 // const router = useRouter();
 
 // useEffect(() => {
 //     router.push(router.pathname+"#top");
 // },[])
 
+  console.log(cart, addtoCart, removeFromCart, clearCart, subTotal);
   const toggleCart = () => {
     // ref.current.classList.add('overflow-x-hidden')
     if (ref.current.classList.contains("translate-x-full")) {

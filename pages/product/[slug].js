@@ -11,7 +11,7 @@ const slug = () => {
   const [service, setservice] = useState();
   const checkServiceArea = async (e) => {
     e.preventDefault();
-    let pins = await fetch("http://10.32.224.165:3000/api/pincode");
+    let pins = await fetch("http://localhost:3000/api/pincode");
     let pinJson = await pins.json();
     // console.log(pinJson, pin);
     if (pinJson.includes(parseInt(pin))) {

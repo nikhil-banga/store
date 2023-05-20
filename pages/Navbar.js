@@ -16,10 +16,10 @@ const Navbar = () => {
         />
 
         </div>
-        <li className="mx-4  cursor-pointer my-1.5">Home</li>
-        <li className="mx-4 cursor-pointer my-1.5">About</li>
-        <li className="mx-4 cursor-pointer my-1.5">Orders</li>
-        <li className="mx-4 cursor-pointer my-1.5">Log Out</li>
+          <li className="mx-4  cursor-pointer my-1.5">Home</li>
+          <li className="mx-4 cursor-pointer my-1.5">About</li>
+          <li className="mx-4 cursor-pointer my-1.5">Orders</li>
+          <li className="mx-4 cursor-pointer my-1.5">Log Out</li>
       </ul>
     </div>
   );
